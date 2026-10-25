@@ -1,0 +1,21 @@
+{
+  "name": "counterparty",
+  "version": "1.0.0",
+  "description": "Practice a negotiation against an AI counterpart with a hidden bottom line, then get a move-by-move review.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "verify": "node scripts/verify.mjs"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^24.0.0"
+  }
+}
